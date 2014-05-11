@@ -26,13 +26,15 @@ In your project's Gruntfile, add a section named `jsfmt` to the data object pass
 ```js
 grunt.initConfig({
   jsfmt: {
-    options: {
-      rewrite: ['_.reduce(a, b, c) -> a.reduce(b, c)']
-    },
-    files: {
-      'path/to/output.js': ['path/to/infile.js']
-    },
-  },
+    default: {
+      options: {
+        rewrite: ['_.reduce(a, b, c) -> a.reduce(b, c)']
+      },
+      files: {
+        'path/to/output.js': ['path/to/infile.js']
+      }
+    }
+  }
 })
 ```
 
