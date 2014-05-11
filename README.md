@@ -20,7 +20,8 @@ grunt.loadNpmTasks('grunt-jsfmt');
 
 ## The "jsfmt" task
 
-### Overview
+### Usage
+
 In your project's Gruntfile, add a section named `jsfmt` to the data object passed into `grunt.initConfig()`.
 
 ```js
@@ -46,8 +47,6 @@ Type: `Array`
 Default value: `'[]'`
 
 An array of values that you want to rewrite.
-
-### Usage Examples
 
 ## Contributing
 
