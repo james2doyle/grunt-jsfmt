@@ -1,0 +1,3 @@
+var fn = function sayHello(string) {
+  alert(string);
+};
