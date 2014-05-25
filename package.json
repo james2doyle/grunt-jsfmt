@@ -1,6 +1,6 @@
 {
   "name": "grunt-jsfmt",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a task for the jsfmt library",
   "homepage": "https://github.com/james2doyle/grunt-jsfmt",
   "repository": "https://github.com/james2doyle/grunt-jsfmt",
