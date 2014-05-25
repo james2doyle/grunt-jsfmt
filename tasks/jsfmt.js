@@ -17,6 +17,7 @@ module.exports = function (grunt) {
     var jsfmt = require('jsfmt');
     // Merge task-specific and/or target-specific options with these defaults.
     var options = this.options({
+      format: true,
       rewrite: []
     });
 
@@ -37,6 +38,9 @@ module.exports = function (grunt) {
           options.rewrite.forEach(function(rule) {
             results = jsfmt.rewrite(results, rule);
           });
+        }
+        if (options.format) {
+          results = jsfmt.format(results);
         }
         return results;
       });
