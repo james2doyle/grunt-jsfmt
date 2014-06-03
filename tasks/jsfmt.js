@@ -41,9 +41,6 @@ module.exports = function (grunt) {
         return results;
       });
 
-      // Handle options.
-      // src += options.punctuation;
-
       // Write the destination file.
       grunt.file.write(file.dest, src);
 
