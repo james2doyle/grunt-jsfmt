@@ -1,6 +1,6 @@
 {
   "name": "grunt-jsfmt",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a task for the jsfmt library",
   "homepage": "https://github.com/james2doyle/grunt-jsfmt",
   "repository": "https://github.com/james2doyle/grunt-jsfmt",
@@ -18,8 +18,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "jsfmt": "~0.1.1"
-    },
+    "jsfmt": "git://github.com/rdio/jsfmt.git#b6002929f7bc1cd8b4eb4a41977cfef2b25eedb7"
+  },
   "devDependencies": {
     "grunt-contrib-clean": "~0.5.0",
     "grunt-contrib-jshint": "~0.8.0",
