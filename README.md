@@ -31,9 +31,12 @@ grunt.initConfig({
       options: {
         rewrite: ['_.reduce(a, b, c) -> a.reduce(b, c)']
       },
-      files: {
-        'path/to/output.js': ['path/to/infile.js']
-      }
+      files: [{
+        expand: true,
+        src: ['**/*.js'],
+        cwd: 'src/',
+        dest: 'src/'
+      }]
     }
   }
 })
