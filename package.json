@@ -18,7 +18,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "jsfmt": "git://github.com/rdio/jsfmt.git#b6002929f7bc1cd8b4eb4a41977cfef2b25eedb7"
+    "jsfmt": "0.3.2"
   },
   "devDependencies": {
     "grunt-contrib-clean": "~0.5.0",
